@@ -1,0 +1,6 @@
+﻿<script type="text/javascript">
+		var telki = ["Альона", "Алла", "Любка"];
+		telki.push("Lyda");
+		telki.pop(); //видаляє елемент з кінця масиву
+		document.write(telki.length);
+</script>

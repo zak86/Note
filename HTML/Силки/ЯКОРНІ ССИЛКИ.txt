@@ -1,0 +1,3 @@
+ЯКОРНІ ССИЛКИ
+<P><a href="#header">вверх</a><P>
+Id="header"

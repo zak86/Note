@@ -1,0 +1,7 @@
+﻿	<?php
+		
+		$arr = array(1, 2, 4, 2);
+		$nam = array_unique($arr);//видаляє повторяючі елементи масиву
+		print_r($nam);
+
+	?>

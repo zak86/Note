@@ -1,0 +1,8 @@
+<script type="text/javascript">
+
+                    var forTesting = "adsgfeasdhgfdwasdd,rwrewqwerwqef,eqfwwqefswq,qweffdfewfgewfsd,ewfsdewfsews,wefsewfdswadfs,sdfffffffffffffdd";
+                    var regV = /,/g;//вибираємо обєкт
+                    var result = forTesting.replace(regV, '.');//replace-заміняє обєкта на указаний в дужках
+                    document.write(result);
+             
+</script>

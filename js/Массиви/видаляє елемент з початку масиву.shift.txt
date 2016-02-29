@@ -1,0 +1,5 @@
+﻿<script type="text/javascript">
+		var telki = ["Альона", "Алла", "Любка"];
+		telki.shift(); //видаляє елемент з початку масиву
+		document.write(telki);
+</script>

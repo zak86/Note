@@ -1,0 +1,1 @@
+﻿removeAttribute(a);//видалити атрибут

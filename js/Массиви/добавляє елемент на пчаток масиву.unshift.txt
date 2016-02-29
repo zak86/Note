@@ -1,0 +1,5 @@
+﻿<script type="text/javascript">
+		var telki = ["Альона", "Алла", "Любка"];
+		telki.unshift("Добавляє елемент на почaток масиву");
+		document.write(telki[0]);
+</script>

@@ -1,0 +1,13 @@
+function f(e) {
+	// ... функция выполняет какие либо действия
+
+	// ... затем предотвращает действие по-умолчанию
+	// получаем объект event
+	var e = e || window.event;
+	if(e){
+		if(e.preventDefault)
+			e.preventDefault();	// для DOM-совместимых браузеров
+		else
+			e.returnValue = false;	// для IE
+	}
+}

@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+ <html lang="en">
+ <head>
+	 <title></title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <link rel="stylesheet" href="" type="text/css"/>
+ </head>
+	 <body>
+	 
+	 <form action="formdata.php" method="POST" name="knopka1">
+	 
+	 <!--reset,submit-типи форми кнопки;
+	 value=""-те що написано на кнопці-->
+	 <p><input type="reset" name="reset" value="зкинути"> </input><input type="submit" name="submit" value="Відправити"></p>
+	
+	 </body>
+ </html>

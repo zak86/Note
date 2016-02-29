@@ -1,0 +1,5 @@
+﻿<script type="text/javascript">
+	var telki = ["Альона", "Алла", "Любка"];
+	telki.push("Lyda"); //добавляє елемент в кінець масиву
+	document.write(telki);
+</script>

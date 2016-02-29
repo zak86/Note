@@ -1,0 +1,3 @@
+﻿document.forms;//вертає масив форм
+document.images;//вертає масив картинок
+document.links;//вертає масив ссилок

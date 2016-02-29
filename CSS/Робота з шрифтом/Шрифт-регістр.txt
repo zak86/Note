@@ -1,0 +1,5 @@
+p{
+	text-transform: uppercase; /*верхній регістер*/
+	text-transform: lowercase; /*ніжній регістр*/
+	text-transform: capitalize; /*Кожнек слово наченається з вкликої букви*/
+}

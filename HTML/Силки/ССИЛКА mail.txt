@@ -1,0 +1,2 @@
+ССИЛКА mail
+<P><a href="mailto:zonuk@mail.ru">звязок з автором</a><P>

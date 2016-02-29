@@ -1,0 +1,8 @@
+<script type="text/javascript">
+
+                    var forTesting = "8(044)432-96-75 пингвинов 8(045)655-34-46 и 9 карасей.8(044)345-75-27..";
+                    var regV = /8\(044\)\d{3}-\d{2}-\d{2}/g;//Кавички екрануються, g-пошук всіх співпадинь
+                    var result = forTesting.match(regV);//match-виртає те що і шукали дословно
+                    document.write(result);
+                    
+</script>

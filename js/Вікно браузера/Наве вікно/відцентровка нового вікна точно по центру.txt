@@ -1,0 +1,10 @@
+﻿<script>
+var w = 300, h = 200;
+var l = (screen.width - w) / 2;
+var t = (screen.height - h) / 2;
+var p = 'width=' + w + ', height=' + h + ', left=' + l + ', top=' + t;
+function fun () {
+	open('http://siza.ru','', p);
+}	
+
+</script>

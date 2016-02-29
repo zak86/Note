@@ -1,0 +1,22 @@
+<script type="text/javascript">
+
+                    var students = ["Илья","Greg", "Алина", "Lюбка"];
+
+                    for (var i = 0; i < students.length; i++) {
+                        var g = 0;
+                        while( g < students[i].length) {
+                            
+                            if (students[i].charCodeAt(g) < 1040 || students[i].charCodeAt(g) > 1103) {
+
+                            document.write("Не коректний ввід " + "<strong>" + students[i].charAt(g) + "</strong>" + " - " + students[i] + "<br />");
+                            }
+
+                            g++;
+
+                        } 
+
+                    }
+                
+               
+                    //1040 -1103
+</script>

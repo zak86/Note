@@ -1,0 +1,26 @@
+﻿Свойство:
+closed;//вертає true/false відкрите/закрите нове вікно
+
+Методи:
+
+var i = open('URL', 'name', 'params', 'history');	//params: (width, height, left, top) - позиціонування, 
+location(yes == 1, no == 0) - показувати/ні адресну стрічку, 
+menubar(yes == 1, no == 0), scrollubar(yes == 1, no == 0), toollubar(yes == 1, no == 0),
+status(yes == 1, no == 0), resizable(yes == 1, no == 0)//маштабувати/ні
+
+close();//закрити нове вікно
+focus();//нове вікно на передньому плані
+blur();//нове вікно на задньому плані
+
+Методи маніпуляцій:
+
+moveTo(x, y)//позиціонування від абсолютної точки
+moveBy(x, y)//позиціонування від свої точки
+
+resizeTo(x, y)//ширина/висота
+resizeBy(x, y)//ширина/висота
+
+scrollTo(x, y)
+scrollBy(x, y)
+
+

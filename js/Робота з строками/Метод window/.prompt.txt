@@ -1,0 +1,5 @@
+<script type="text/javascript">
+
+		var vidpovid = window.prompt("Do you love me?", "Любина відповідь");//"Do you love me?"-саме питання, "Любина відповідь"-підсказка
+
+</script>

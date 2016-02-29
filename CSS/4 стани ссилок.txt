@@ -1,0 +1,16 @@
+
+a:link{
+	color: #111111;
+}
+
+a:visited{
+	color: #FF8040;
+}
+
+a:hover{
+	color: #800000;
+}
+
+a:active{
+	color: #008000;
+}

@@ -1,0 +1,4 @@
+.text{
+	text-decoration: underline; /*overline-над текстом, line-through-перечеркнутий текст, underline-под текстом;*/
+	text-decoration: none; /*прибирає підчерк ссилки*/
+}

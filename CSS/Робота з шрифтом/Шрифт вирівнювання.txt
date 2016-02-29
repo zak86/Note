@@ -1,0 +1,5 @@
+
+.justify{
+	text-align: justify; /*center, left, right, justify*/
+	text-indent: 30px; /*відступ текста-червона лінія*/
+}

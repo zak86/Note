@@ -1,0 +1,11 @@
+<script type="text/javascript">
+
+                    var students = "45000";// в кавичках
+                    var regV = /\d\d\d\d\d/;//-/\d/-означає від 0 до 9.  /\d{5}/-скорочений запис
+                    var result = students.search(regV);//serch-шукає по першому індексу
+                    
+                    if (result == -1) {
+                        alert('Не коректний ввід!!!!');
+                    }
+
+</script>

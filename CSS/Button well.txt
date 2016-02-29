@@ -1,0 +1,8 @@
+    <style>
+    	.bat1, .bat2{ display: inline-block; font-size: 17px; text-transform: uppercase; font-family: "RobotoLight"; letter-spacing: 2px;}
+    	.bat1 a, .bat2 a{ background: #555; text-decoration: none; padding: 15px 30px; color: #fff;  display: inline-block; text-align: center; border-radius: 7px; margin: 4px;}
+    	.bat2 a{ border: .5px solid #a9a9a9; background: transparent; padding: 14px 29px; color: #555;}
+    	
+    	.bat1 a:hover{ background: #777; transition: all .5s;}
+    	.bat2 a:hover{ background: rgba(255, 255, 255, .1); transition: all .5s;}
+    </style>

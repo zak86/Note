@@ -1,0 +1,5 @@
+<script type="text/javascript">
+        var arrey1 = ["usa", "ukraina", "parasha", 'austria', "Yrygvay"];
+	var count = arrey1.length; //видаЇ к≥льк≥сть €чеЇк в масив≥
+	document.write(count);
+</script>

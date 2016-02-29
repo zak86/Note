@@ -1,0 +1,29 @@
+ <!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+ <html lang="en">
+ <head>
+	 <title></title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <link rel="stylesheet" href="" type="text/css"/>
+ </head>
+	 <body>
+	 <form action="formdata.php" method="POST" name="form4">
+	 <p>Форма випадаючий списоК</p>
+	 
+	 	<p>
+	 	<!--select-заміщає input, має закриваючий тег, це контейнер;
+	 	size-розмір до куда;
+	 	nultiple-вибір деяких галочок;-->
+	 	<select name="spisok" <!--size="5" nultiple--> >
+	 	
+	 	<!--value-передає обработчику значення яке в кавичках(не обов'язково)-->
+	 		<option value="one">1</option>
+	 		<option>2</option>
+	 		<option>3</option>
+	 		<!--selected-якор галочки-->
+	 		<option selected>4</option>
+	 		<option>5</option>
+	 	</select>
+	 	</p>
+	
+	 </body>
+ </html>

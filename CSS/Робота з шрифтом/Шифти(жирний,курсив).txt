@@ -1,0 +1,7 @@
+.italic{
+	font-style: italic; /*Курсив*/
+}
+
+.text{
+	font-weight: bold; /*normal-400,bold-700-Жирний шрифт*/
+}

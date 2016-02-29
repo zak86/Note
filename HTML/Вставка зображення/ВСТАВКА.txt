@@ -1,0 +1,5 @@
+ВСТАВКА ЗОБРАЖЕННЯ
+<img src="images/image.jpg" width="100px" height="70px" alt="опис" alight="right" hspase="20px" vspace="20px">
+
+alt-ставиться якщо в користувача відключено показ картинок в бр.
+hspace,vspace-відступи картинки

@@ -1,0 +1,7 @@
+﻿	<?php
+		
+		$arr = array(1, 2, 4);
+		$nam = array_pop($arr);//буде вирізана 4 і поміщена в змінну $nam
+		echo $nam;
+
+	?>

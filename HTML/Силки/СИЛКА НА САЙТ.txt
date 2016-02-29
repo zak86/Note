@@ -1,0 +1,5 @@
+СИЛКА НА САЙТ
+<P><a href="www.site.ua" target="_blank" title="підсказка">www.site.ua</a><P>
+
+target="_blank"-відкрити ссилку в новому вікні.
+title="пдказка"-при наведенні на ссилку з"являється

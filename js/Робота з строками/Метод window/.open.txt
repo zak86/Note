@@ -1,0 +1,7 @@
+//Вспливаюче вікно
+<script type="text/javascript">
+
+		var newWin = window.open(" ", "Нове вікно", "width=400", "height=350");
+		newWin.document.write("Нове вікно");
+
+</script>

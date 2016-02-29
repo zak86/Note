@@ -1,0 +1,52 @@
+﻿ <!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+ <html lang="en">
+ <head>
+	 
+<title></title>
+	 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 
+<link rel="stylesheet" href="" type="text/css"/>
+ 
+</head>
+	 
+<body>
+	 
+	 
+<form action="formdata.php" name="form" method="POST">
+	 
+	 
+<!--fielset-контейнер для форми;
+	 legend-назва контейнера-->
+	 
+<fieldset>
+	 
+<legend>Опис</legend>
+	 
+<p><label>ввід<textarea rows="5" cols="30" name="opus"></textarea></label></p>
+	
+</fieldset>
+	
+	 
+<fieldset>
+	 
+<legend>disabled</legend>
+	 
+<p><label>ввід<textarea rows="5" cols="30" name="opus" disabled>заблбковано</textarea></label></p>
+	
+</fieldset>
+	
+	 
+<fieldset>
+	 
+<legend>readonly</legend>
+	 
+<p><label>ввід<textarea rows="5" cols="30" name="opus" readonly>только для чтения</textarea></label></p>
+	
+</fieldset>
+
+</form>	
+	 
+</body>
+ 
+</html>

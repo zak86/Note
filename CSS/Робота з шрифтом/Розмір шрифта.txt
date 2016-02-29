@@ -1,0 +1,7 @@
+p{
+	font-size: 100%;
+	font-size: 1em;
+	font-size: 16px;
+	font-size: 12pt;
+	font-size: medium, small, large;(xxmedium,xsmall, xxlarge)
+}

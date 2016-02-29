@@ -1,0 +1,10 @@
+<script type="text/javascript">
+
+		function summa(number){
+			var itog = number * number * number;
+			return itog; //return-возврат перемінної
+		}
+		var result = summa(54);
+		alert(result);
+
+</script>

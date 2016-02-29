@@ -1,0 +1,6 @@
+﻿<script type="text/javascript">
+             
+                    var forTime = new Date();
+                    document.write(forTime.getTime());//getTime-кількість мілісекунд з 1970року
+                
+</script>

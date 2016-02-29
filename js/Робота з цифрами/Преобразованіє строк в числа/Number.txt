@@ -1,0 +1,6 @@
+Якщо false - 0, якщо true - 1;
+<script type="text/javascript">
+                    var bool = true;
+                    var result = Number(bool);
+                    document.write(result);
+</script>

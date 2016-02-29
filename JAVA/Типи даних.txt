@@ -1,0 +1,33 @@
+﻿public class Main {
+
+    //Цілі числа
+    static byte b = 127;
+    static short sh = 77;
+    static int i = 55;
+    static long l = 466;
+
+    //Дробні числа
+    static float fl = 7.8f;
+    static double db = 66.4;
+
+    //Логічні типи
+    static boolean bool = true;
+    static boolean bool2 = false;
+
+    //Силочні типи
+    static String st = "String";
+    static char c = 'S';
+
+    //Константа
+    static final int CONST = 77;
+
+
+    public static void main(String[] args) {
+        int pr = (int) fl;
+        System.out.println(pr);
+
+    }
+
+
+
+}

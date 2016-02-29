@@ -1,0 +1,1 @@
+navigator.cookieEnabled - провіряе доступність кукі у браузера , вертає true or false

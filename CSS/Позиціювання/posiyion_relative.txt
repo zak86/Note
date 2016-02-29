@@ -1,0 +1,19 @@
+#new{
+	position: relative; /*Позиціонується відносно свого ізначальної позиції*/
+	top: 129px;
+	right: 70px;
+}
+
+
+#conteiner{
+	position: relative;
+	height: 75px;
+	background-image: url(../images/header.png);
+	background-repeat: no-repeat;
+}
+
+#vConteiner{
+	position: absolute;
+	top: -10px; /*Позиціонуєтьчя відносно свого родітєля з position: relative;*/
+	left: 320px;
+}

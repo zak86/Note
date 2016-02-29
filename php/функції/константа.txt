@@ -1,0 +1,8 @@
+﻿define(CONSTANT_NAME, valye);//функція оголошення констант
+
+	<?php
+
+		define(CONSTANT_NAME, "Lyba");
+		echo CONSTANT_NAME;
+
+	?>

@@ -1,0 +1,6 @@
+<script type="text/javascript">
+                
+                var city = "Київ";
+                document.write(city.charAt(2));//Покащзує букву в слові
+              
+</script>

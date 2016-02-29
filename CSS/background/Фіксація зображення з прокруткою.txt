@@ -1,0 +1,2 @@
+ 	background-position: 0 100px;
+	background-attachment: fixed;

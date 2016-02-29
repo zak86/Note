@@ -1,0 +1,6 @@
+﻿<?php 
+	header('content-type: text/html; charset=utf-8'); //встановлює кодировку рпинудітельно  
+	header('location: lesson1/index.php'); //redirect зразу без можливості повернутись на цю сторінку
+	header('refresh: 2; url=lesson1/index.php'); //redirect з можливістю повернутися на цю сторінку з указаною затримкою
+	exit('redirect буде через 2 сек., якщо не хочете чекати то клікніть по цій ссилці <a href="lesson1/index.php">Come back</a>'); //можна не вказувати в дужках нічого ,,,
+?>

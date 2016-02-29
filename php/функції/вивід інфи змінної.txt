@@ -1,0 +1,13 @@
+﻿var_dump();//функція виводе всю інфу про змінну
+
+	<?php
+
+		$var = 30;//int 30
+		$var = 'english';//string 'english' (length=7)
+		$var = 30.3;//float 30.3
+		$var = true;//boolean true
+		$var = false;//boolean false
+		
+		var_dump($var);
+
+	?>

@@ -1,0 +1,1 @@
+﻿mas[mas.length - 1];

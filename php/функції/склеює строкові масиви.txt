@@ -1,0 +1,7 @@
+﻿	<?php
+
+		$arr = array('text1', 'text2', 'text3', 'text4');
+		$str = implode(', ', $arr);//implode-склеює строкові масиви
+		echo "$str";
+
+	?>

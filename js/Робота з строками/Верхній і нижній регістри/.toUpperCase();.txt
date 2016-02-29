@@ -1,0 +1,7 @@
+<script type="text/javascript">
+
+                var slovo = "Верхній регістр"
+                var newSlovo = slovo.toUpperCase();
+                document.write(newSlovo);
+
+</script>

@@ -1,0 +1,42 @@
+﻿ <!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+ 
+<html lang="en">
+ <head>
+	 <title>форми</title>
+	 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 
+<link rel="stylesheet" href="" type="text/css"/>
+ 
+</head>
+	 
+<body>
+	 
+	 
+<!--action-обращение к обработчику; method-сообщает серверу о методе запроса.-->
+	
+<form	action="formdata.php" method="POST" name="form1">
+	 
+	 
+<!--input-создает поле ввода;
+ 
+label-задает поле нажатие мыши;
+ type="text"-вид поля-имя;
+	
+size-длина поля в символах;
+ maxlength-длина водиммых символов-->
+	 
+<p><label>Ім'я<input type="text" name="name" size="20" maxlength="15"></label></p>
+
+<!--type="password"-тип формы пароль-->
+	 
+<p><label>Пароль<input type="password" name="password" size="20" maxlength="15">
+</label></p>
+	 	
+	 
+</form>
+		
+	 
+</body>
+ 
+</html>

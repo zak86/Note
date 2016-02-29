@@ -1,0 +1,7 @@
+<script type="text/javascript">
+
+                    var count = '7.6322';
+                    var newCount = parseFloat(count);//parseFloat робить із '7.6322 число' робить 7.6322
+                    document.write(newCount);
+
+</script>

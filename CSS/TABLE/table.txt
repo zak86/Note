@@ -1,0 +1,2 @@
+border-collapse: collapse; /*ќб'ЇднуЇ рамки таблиц≥*/
+vertical-align: middle; /*¬ир≥внюванн€ тексту в €чейц≥ таблиц≥(middle-центер, top-верх, bottom-низ, baseline-верх*/

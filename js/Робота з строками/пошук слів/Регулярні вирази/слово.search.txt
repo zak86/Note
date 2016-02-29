@@ -1,0 +1,8 @@
+<script type="text/javascript">
+
+                    var students = "Сергій Ребров";
+                    var regV = /Ребров/;//-/Що шукається/
+                    var result = students.search(regV);//serch-шукає по першому індексу
+                    document.write(result);
+
+</script>

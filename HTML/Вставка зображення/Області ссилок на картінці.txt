@@ -1,0 +1,25 @@
+﻿!DOCTYPE html>
+<html>
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Ссилки на картинці</title>
+	</head>
+	<body>
+
+		<!--<vspace="отступ по вертикали"><hspace="отступ по горизонтали">
+		<usemap="#идентификатор">-->
+		<img src="images/ssulka2.jpg" width="700" height="466" alt="2ссайта" border="0" usemap="#imgmap201492720154" hspace="10" vspace="10">
+
+		<!--id,name-обов'язково-->
+		<map id="imgmap201492720154" name="imgmap201492720154">
+
+		<!--<area> определяет активные области изображения, которые являются ссылками
+		<shape="Определяет на изображении тип активной области, которая служит ссылкой-default | poly | rect">
+		-->
+		<area shape="poly" alt="pdalife.ru" title="" coords="245,107,244,225,599,228,661,169,595,113" href="http://pdalife.ru" target="_blank">
+		<area shape="poly" alt="4pda.ru" title="" coords="455,255,455,377,93,379,25,317,93,257" href="http://4pda.ru" target="_blank">
+		</map>
+
+
+	</body>
+</html>

@@ -1,0 +1,6 @@
+<script type="text/javascript">
+		var fruts = ['горох', "помідор", "ананас", "капуста"];
+		var fruts2 = ['горох', "помідор", "ананас", "капуста"];
+		var mas = fruts.concat(fruts2);//.concat(2 масив)-складає 2 масива в один з розділювачем
+		document.write(mas.join('&'));
+</script>

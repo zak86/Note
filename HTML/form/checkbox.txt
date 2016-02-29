@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+ 
+<html lang="en">
+ <head>
+	 
+<title></title>
+	 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 
+<link rel="stylesheet" href="" type="text/css"/>
+ </head>
+	 
+<body>
+	 	
+<form action="formdata.php" method="POST" name="form3">
+	 	
+
+<p>Checkbox</p> 	
+	 	
+<p>
+	 	
+	 	
+<!--type="checkbox"-тип формы;
+	 	name-разные-->
+	 		
+<label>Галочка1<input type="checkbox" name="chackbox1"></label>
+	 		
+	 		
+<!--checked-есть-->
+	 		
+<label>Галочка2<input type="checkbox" name="chackbox2" checked></label>
+	 		
+	 		
+<label>Галочка3<input type="checkbox" name="chackbox3"></label>
+	 	
+</p>
+	
+	 
+</body>
+ </html>

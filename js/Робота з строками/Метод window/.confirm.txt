@@ -1,0 +1,10 @@
+<script type="text/javascript">
+
+		var vidpovid = window.confirm("Do you love me?");//"Do you love me?"-саме питання-Так, отмена-передає true або folse..
+		if (vidpovid) {
+			document.write("правильна відповідь")
+		}
+		else{
+			document.write("не правильна відповідь")
+		}
+</script>

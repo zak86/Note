@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+ <html lang="en">
+ <head>
+	 <title></title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <link rel="stylesheet" href="" type="text/css"/>
+ </head>
+	 <body>
+	 
+	 <!--type="a"; start="0"-->
+		<ol><li>впорядкований список</li></ol>
+		
+		<!--type="square"; type="circle"-->
+		<ul type="circle"><li>не впорядкований список </li></ul>
+		
+		<!--атрибутів немає-->
+		<dl>
+		<dt>список визначення</dt>
+		<dd>опис</dd>
+		</dl>
+		
+	 </body>
+ </html>

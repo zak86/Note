@@ -1,0 +1,2 @@
+ССИЛКА ДЛЯ СКАЧКИ
+<P><a href="files/file.exe" target="_blank">Скачати фаіл</a><P>

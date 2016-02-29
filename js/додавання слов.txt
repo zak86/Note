@@ -1,0 +1,5 @@
+<script type="text/javascript">
+	var name = "Gena", fam = "Zakordonets";
+	var itog = name + " " + fam; //" "-пробіл
+	document.write(itog);
+</script>

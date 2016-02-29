@@ -1,0 +1,42 @@
+﻿<?php
+	
+	mysql_connect("localhost","user","2708") or die("Error: ".mysql_error());
+	mysql_select_db("php") or die("Error: ".mysql_error());
+	mysql_query("SET NAMES utf8") or die("Error: ".mysql_error());
+
+?>
+
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<title>SQL</title>
+</head>
+<body style="font-family: arial; background: #555; color: #aaaaaa">
+<?php
+	
+	$query_insert = "INSERT INTO test (name, phne, age) VALUES ('Bax', '7777', 7)";
+
+	$query = mysql_query($query_insert);
+	$query = mysql_query("SELECT * FROM test");
+	echo "<table>";
+		echo "<tr><td>Id</td><td>Name</td><td>Phone</td><td>Age</td></tr>";
+	
+	while($row = mysql_fetch_assoc($query)){
+		echo "<tr>
+				<td>". $row['id'] ."</td>
+				<td>". $row['name'] ."</td>
+				<td>". $row['phne'] ."</td>
+				<td>". $row['age'] ."</td>
+			</tr>";
+	}
+	echo "</table>";
+
+	$query_delete ="DELETE FROM test WHERE name=Bax";
+	$query = mysql_query($query_delete);
+	/*echo "<pre>";
+	print_r($row);
+	echo "</pre>";*/
+?>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿<?php
+	
+	echo $_POST['name'];
+	echo $_POST['password'];
+	echo $_POST['maslo'];
+	echo $_POST['vubor_maslo'];
+	echo $_POST['vubor_AKB'];
+	echo $_POST['obem'];
+	echo $_POST['opus'];
+
+	$result = mail("test@test.ru", "Анкета ссайта", "Ваший вибір: \nІмя: $_POST[name] \nПароль: $_POST[password] \nВи з нами вже працювали? $_POST[maslo] \nЯка у вас втор.сировина? $_POST[vubor_maslo]
+	$_POST[vubor_AKB] \nЯкий об'єм? $_POST[obem] \nОпис: $_POST[opus]");
+	if ($result) {
+echo "<p>Успішно</p>";
+	}
+else{
+echo "<p>Помилка</p>";
+}
+?>

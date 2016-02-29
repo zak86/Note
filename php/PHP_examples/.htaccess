@@ -1,0 +1,12 @@
+RemoveHandler .html .htm
+AddType application/x-httpd-php .php .htm .html .phtml
+
+php_value register_globals On
+
+
+DirectoryIndex index.php
+RewriteEngine On
+Options +FollowSymlinks
+RewriteCond   %{REQUEST_FILENAME}       !-d
+RewriteCond   %{REQUEST_FILENAME}       !-f
+RewriteRule   ^(.*) index.php?%{QUERY_STRING}

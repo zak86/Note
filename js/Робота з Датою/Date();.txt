@@ -1,0 +1,17 @@
+﻿<script type="text/javascript">
+                    var forTime = new Date();//Об*єкт Date поміщают в переміну
+                    var year = forTime.getFullYear();
+                    document.write("Зараз рік: " + year + "<br />");
+                    var month = forTime.getMonth() + 1;//січень виводить як 0, щоб виводило як перший місяць то + 1
+                    document.write("Зараз місяць: " + month + "<br />");
+                    var day = forTime.getDate();
+                    document.write("Зараз число: " + day + "<br />");
+                    var dayWeek = forTime.getDay();
+                    document.write("Зараз день тижня: " + dayWeek + "<br />");//неділя- 0, понеділок-1...
+                    var hour = forTime.getHours();
+                    document.write("Зараз година: " + hour + "<br />");
+                    var minuts = forTime.getMinutes();
+                    document.write("Зараз минут: " + minuts + "<br />");
+                    var second = forTime.getSeconds();
+                    document.write("Зараз секунд: " + second + "<br />");
+</script>

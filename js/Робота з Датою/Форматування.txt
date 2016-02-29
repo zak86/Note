@@ -1,0 +1,10 @@
+﻿//Форматирование:
+
+//toDateString(), toTimeString(), toLocaleString(), toLocaleDateString(), toLocaleTimeString();
+
+var d = new Date();	
+document.write( d.toDateString() + '<hr>'); // Sun Mar 15 2015		
+document.write(d.toTimeString() + '<hr>'); // 14:28:50 GMT+0200 (Финляндия (зима))
+document.write( d.toLocaleString() + '<hr>'); // 15.03.2015 14:28:50
+document.write( d.toLocaleDateString() + '<hr>'); // 15.03.2015
+document.write( d. toLocaleTimeString() + '<hr>'); // 14:28:50

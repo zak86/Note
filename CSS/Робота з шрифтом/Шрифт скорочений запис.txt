@@ -1,0 +1,18 @@
+[<'border-width: 2px;'>||<'border-style: solid:'>||<color: #fff;>]
+
+border-width: 2px; /*Розмір рамки*/
+border-style: solid; /*Стиль рамки*/
+border-color: #FFDD00; /*Кольор рамки*/
+
+    border-top-width: 3px; /*Розмір рамки*/
+	border-top-style: double; /*Двойна рамка*/
+	border-top-color: #FFDD00; /*Кольор рамки*/
+	border-bottom-width: 2px; /*Розмір рамки*/
+	border-bottom-style: dotted; /*Точкова рамка*/
+	border-bottom-color: #FFDD00; /*Кольор рамки*/
+	border-left-width: 2px; /*Розмір рамки*/
+	border-left-style: solid; /*Суцільна рамка*/
+	border-left-color: #FFDD00; /*Кольор рамки*/
+	border-right-width: 2px; /*Розмір рамки*/
+	border-right-style: dashed; /*Пунктирна рамка*/
+	border-right-color: #FFDD00; /*Кольор рамки*/

@@ -1,0 +1,1 @@
+﻿document.body;//вертає DOM = <body>....</body>

@@ -1,0 +1,5 @@
+.reverse(); //перевертає масив
+
+var arr = [5,0,7,0,1,9,2,9,0];
+
+document.write(arr.reverse());

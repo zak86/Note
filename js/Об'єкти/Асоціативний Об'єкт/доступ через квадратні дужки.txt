@@ -1,0 +1,11 @@
+var person = {};
+
+person['name'] = 'Вася'; // то же что и person.name
+
+alert(person['name']);
+
+delete person['name'];
+
+var i = {n:'темна'};
+var key = 'n';
+alert( i[key] ); //виведе "темна" // доступ через квадратні дужки

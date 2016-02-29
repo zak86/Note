@@ -1,0 +1,6 @@
+<script type="text/javascript">
+                
+                var city = "Київ";
+                document.write(city.charCodeAt(2));//Показує код символу в слові
+              
+</script>

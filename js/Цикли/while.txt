@@ -1,0 +1,9 @@
+<script type="text/javascript">
+		var i = 2;
+
+		while(i <=52) {
+			document.write(i + "<br />");
+			i++
+		}
+
+</script>

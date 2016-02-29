@@ -1,0 +1,5 @@
+<script type="text/javascript">
+                var meString = 'Text plege, Text plege, Text plege, Text plege';
+                document.write(meString.indexOf('plege'));//Пошук слова по названню, указуючи номер символу
+              
+</script>

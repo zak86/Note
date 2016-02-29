@@ -1,0 +1,3 @@
+﻿var myDiv = document.getElementById('div_for_img');
+var brotherDiv = myDiv.previousSibling;//previousSibling-указує на предидущій брат
+alert(brotherDiv);

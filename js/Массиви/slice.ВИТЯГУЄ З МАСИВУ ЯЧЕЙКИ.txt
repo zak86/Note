@@ -1,0 +1,5 @@
+﻿<script type="text/javascript">
+		var fruts = ['горох', "помідор", "ананас", "капуста"];
+		var mas = fruts.slice(1, 3);//.slice(1-з якої комірки починати, 3-перед якою закінчити)-ВИТЯГУЄ З МАСИВУ ЯЧЕЙКИ
+		document.write(mas.join('&'));
+</script>

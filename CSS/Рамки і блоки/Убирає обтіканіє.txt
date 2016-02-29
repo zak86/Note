@@ -1,0 +1,5 @@
+<div class="clear"></div>-Пустий блок перед тим блоком що не повинен обтікати
+
+.clear{
+	clear: both; /*убирає обтіканіє(left, both, right\)*/
+}

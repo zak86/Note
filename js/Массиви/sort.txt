@@ -1,0 +1,6 @@
+﻿fruts.sort(); //сортирує по алфавіту
+
+//сортірує правильно
+function compareNumeric(a, b) {
+  return a - b;
+}

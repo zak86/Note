@@ -1,0 +1,1 @@
+background-repeat no-repeat; no-repeat-не тіражирувати, repeat-х-теражирувати по осі х, repeat-теражирувати по осіy

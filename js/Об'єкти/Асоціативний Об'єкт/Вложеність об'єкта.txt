@@ -1,0 +1,14 @@
+
+    var user = {
+                name: 'Lyba',
+                options: {
+                          top: 90,
+                          middle: 60,
+                          bottom: 90
+                         } 
+                };
+
+    var taliya = user.options.middle;
+    var nameLyba = user.name;
+
+    document.write('<mark>' + nameLyba + ' Kydubina mae taliy ' + taliya + '</mark>');

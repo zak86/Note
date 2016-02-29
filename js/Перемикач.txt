@@ -1,0 +1,11 @@
+var flag = 1;
+
+function f() {
+if (flag) {
+     document.getElementById('t').style.display = "none";
+     flag = 0;
+}else {
+    document.getElementById('t').style.display = "block";
+    flag = 1;
+}
+}

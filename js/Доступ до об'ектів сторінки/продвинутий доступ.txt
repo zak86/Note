@@ -1,0 +1,12 @@
+﻿
+document.getElementById("morda").nodeName;//вказуе значення вузла
+
+document.getElementById("morda").nodeValue;//доступ до текстових і атрибутних вузлів
+
+document.getElementById("morda").nodeType;//вертає тип вузла
+
+document.getElementById("morda").childNodes;//масив має в собі всі вузли
+
+document.getElementById("morda").firstChild;//перший дочірній вузел
+
+document.getElementById("morda").lastChild;//последній дочірній вузол

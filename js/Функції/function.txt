@@ -1,0 +1,9 @@
+<script type="text/javascript">
+
+		function summa(number1, number2){
+			var itog = number1 + number2;
+			document.write(itog);
+		}
+		summa(12,43);
+
+</script>

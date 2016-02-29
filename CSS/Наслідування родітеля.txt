@@ -1,0 +1,1 @@
+padding: inherit; /*inherit-Наслідує свойство родітеля*/
